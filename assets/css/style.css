@@ -82,6 +82,13 @@ p {
   color: #373A3C;
 }
 
+.blanco {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "open sans", sans-serif;
+}
+
 .parrafo-card {
   font-size: 1rem;
   color: #5A5E60;
