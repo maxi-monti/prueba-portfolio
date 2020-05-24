@@ -1,0 +1,163 @@
+nav {
+  vertical-align: middle;
+  width: 100vw; /* Ancho total de la página */
+  scroll-behavior: smooth;
+}
+
+li {
+  text-align: right;
+  margin: 0em 1em;
+}
+
+body {
+  background: #ffffff;
+  line-height: 2;
+  text-align: center;
+  margin: 0;
+  font-family: "open sans", sans-serif;
+}
+
+.interlineado {
+  line-height: 1.75;
+}
+
+.hero-section {
+  text-align: center;
+  background-image: url("../img/foto-cabecera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: auto;
+  padding: 22em 5em 2em 5em; /* También se puede medir en px. No recomendado */
+}
+
+.foto-cabecera {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.margenes-internos {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  text-align: left;
+  font: Regular 25px/34px Open Sans;
+  letter-spacing: 0.5px;
+  color: #000F08;
+  opacity: 1;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.dos-columnas {
+  text-align: left;
+  column-count: 2;
+}
+
+.gris-oscuro {
+  color: #373A3C;
+}
+
+.parrafo-card {
+  font-size: 1rem;
+  color: #5A5E60;
+  line-height: 1.4;
+}
+
+#logo-nav {
+  max-width: 60px;
+  display: block;
+  float: left;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.azul-fondo {
+  background-color: #04263f;
+  color: #ffffff;
+}
+
+.centrado {
+  margin: 2em 9em;
+  padding: 2em 3em;
+}
+
+.margenes-lados {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.margenes-y {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.margen-derecho {
+  margin-right: 3em;
+  padding-right: 3em;
+}
+
+.margen-izquierdo {
+  margin-left: 3em;
+  padding-left: 3em;
+}
+
+#margen-der {
+  margin-right: 3em;
+  padding-right: 2em;
+}
+
+#margen-izq {
+  margin-left: 3em;
+  padding-left: 2em;
+}
+
+.proyecto {
+  display: inline-block;
+  width: 30%;
+}
+
+.icono {
+    font-size: 5em;
+    color: #4484ce;
+    text-rendering: auto;
+}
+
+.icono-footer {
+    font-size: 3em;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.alineacion-izquierda {
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  vertical-align: middle;
+  padding: 2em 2em;
+}
