@@ -1,3 +1,11 @@
+body {
+  background: #ffffff;
+  line-height: 2;
+  text-align: center;
+  margin: 0;
+  font-family: "open sans", sans-serif;
+}
+
 nav {
   vertical-align: middle;
   width: 100vw; /* Ancho total de la página */
@@ -7,14 +15,6 @@ nav {
 li {
   text-align: right;
   margin: 0em 1em;
-}
-
-body {
-  background: #ffffff;
-  line-height: 2;
-  text-align: center;
-  margin: 0;
-  font-family: "open sans", sans-serif;
 }
 
 .interlineado {
@@ -161,6 +161,10 @@ p {
 
 .alineacion-izquierda {
   text-align: left;
+}
+
+.medio {
+  text-align: center;
 }
 
 footer {
