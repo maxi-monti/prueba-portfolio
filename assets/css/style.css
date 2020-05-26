@@ -26,18 +26,9 @@ li {
   background-image: url("../img/foto-cabecera.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  padding-top: 28em;
   color: #ffffff;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
-  height: auto;
-  padding: 22em 5em 2em 5em; /* También se puede medir en px. No recomendado */
-}
-
-.foto-cabecera {
-  text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 .margenes-internos {
@@ -120,6 +111,7 @@ p {
 .margenes-y {
   margin-top: 1em;
   margin-bottom: 1em;
+  padding-top: 1.5em;
 }
 
 .margen-derecho {
@@ -159,12 +151,12 @@ p {
     vertical-align: middle;
 }
 
-.alineacion-izquierda {
-  text-align: left;
+.middle {
+    vertical-align: middle;
 }
 
-.medio {
-  text-align: center;
+.alineacion-izquierda {
+  text-align: left;
 }
 
 footer {
